@@ -1,18 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-/**
- * XStudentForm - A React application for student registration with comprehensive validation.
- *
- * Features:
- * - Real-time input handling
- * - Custom validation for Name, Username, College, Email, Password, and Address
- * - Specific rules: Required fields, lowercase username, email format check, password length (min 8)
- * - Suppressed native browser tooltips for custom red text error messages
- */
-
 function App() {
-  // State to manage form input values
   const [formData, setFormData] = useState({
     name: "",
     username: "",
@@ -107,11 +96,7 @@ function App() {
   return (
     <div className="container">
       <div className="registration-card">
-        <h1 className="title">
-          Student
-          <br />
-          Registration Form
-        </h1>
+        <h1 className="title">Student Registration Form</h1>
 
         <form className="registration-form" onSubmit={handleSubmit} noValidate>
           {/* Name Field */}

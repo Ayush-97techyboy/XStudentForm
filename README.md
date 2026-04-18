@@ -3,7 +3,7 @@
 XStudentForm is a modern, responsive React application designed to capture student registration details with robust frontend validation. Built for efficiency and a premium user experience, it ensures data integrity through real-time feedback and custom error handling.
 
 ## 🚀 Live Demo
-[View Live Project](https://github.com/Ayush-97techyboy/XStudentForm)
+[View Live Project](https://x-studentform-validation.netlify.app/)
 
 ## ✨ Features
 - **Dynamic Form Handling**: Real-time state management for multiple input fields.
@@ -20,7 +20,7 @@ XStudentForm is a modern, responsive React application designed to capture stude
 - **Frontend**: React.js
 - **Build Tool**: Vite
 - **Styling**: Vanilla CSS (Modern CSS3)
-- **Deployment**: GitHub Pages (or preferred host)
+- **Deployment**: Netlify
 
 ## 📦 Getting Started
 
